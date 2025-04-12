@@ -48,18 +48,17 @@ Make sure you have the following installed:
 
 expense-tracker/
 ├── public/
-│   ├── index.html
-│
+│   └── index.html
 ├── src/
 │   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Main.jsx
-│   │   ├── Form.jsx
-│   ├── App.jsx
-│   ├── index.jsx
-│   └── App.css
-├── tailwind.config.js
-└── README.md                       
+│   │   ├── Header.jsx           
+│   │   ├── Main.jsx           
+│   │   ├── Form.jsx             
+│   ├── App.jsx                      
+│   ├── index.jsx                     
+│   └── App.css                     
+├── tailwind.config.js               
+└── README.md                        
 
 
 
