@@ -9,6 +9,12 @@ function Form(){
     date: ""
   })
 
+    //   Control form submit behaviour
+    function handleSubmit(event){
+        event.preventDefault()
+    }
+
+    //   Handle inputs
   function handleInputs(event){
     const {name, value} = event.target
     setFormData(prev => ({
@@ -19,7 +25,7 @@ function Form(){
 
   return (
     <div className="expense-form">
-        <form >
+        <form onSubmit={handleSubmit}>
             <input 
                 type="text" 
                 placeholder='Expense name'
