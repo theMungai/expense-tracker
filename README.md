@@ -52,13 +52,13 @@ expense-tracker/
 ├── src/
 │   ├── components/
 │   │   ├── Header.jsx           
-│   │   ├── Main.jsx           
-│   │   ├── Form.jsx             
-│   ├── App.jsx                      
-│   ├── index.jsx                     
+│   │   ├── Main.jsx          
+│   │   ├── Form.jsx           
+│   ├── App.js                       
+│   ├── index.js                     
 │   └── App.css                     
 ├── tailwind.config.js               
-└── README.md                        
-
+├── package.json                     
+└── README.md    
 
 
